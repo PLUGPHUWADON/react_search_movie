@@ -1,0 +1,59 @@
+.main {
+  padding: 50px;
+}
+.main > form > input {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+}
+.main > form > input:focus {
+  outline: none;
+}
+.main .content {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.item {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.585);
+  overflow: hidden;
+}
+.item > img {
+  width: 100%;
+  height: 90%;
+}
+.item > p {
+  text-align: center;
+}
+
+.movie {
+  padding: 50px;
+}
+.movie > img {
+  width: 200px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.movie > h2 {
+  margin: 10px;
+}
+.movie > p {
+  line-height: 1.5rem;
+}
+.movie a {
+  margin-top: 20px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  background-color: #192138;
+}/*# sourceMappingURL=App.css.map */

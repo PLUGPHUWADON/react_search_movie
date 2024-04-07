@@ -1,0 +1,75 @@
+//*component app
+
+.main{
+    padding: 50px;
+
+    >form{
+
+        >input{
+            display: block;
+            margin: 0 auto;
+            width: 200px;
+            height: 30px;
+            padding-left: 10px;
+        }
+        >input:focus{
+            outline: none;
+        }
+    }
+
+    .content{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+//*component item
+
+.item{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.585);
+    overflow: hidden;
+
+    >img{
+        width: 100%;
+        height: 90%;
+    }
+
+    >p{
+        text-align: center;
+    }
+}
+
+//*component movie
+
+.movie{
+    padding: 50px;
+
+    >img{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    >h2{
+        margin: 10px;
+    }
+
+    >p{
+        line-height: 1.5rem;
+    }
+
+    a{
+        margin-top: 20px;
+        display: inline-block;
+        text-decoration: none;
+        padding: .5rem 1.5rem;
+        color: #fff;
+        background-color: #192138;
+    }
+}
